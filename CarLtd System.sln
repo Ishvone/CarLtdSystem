@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLtdBackOffice", "CarLtdBackOffice\CarLtdBackOffice.csproj", "{67BEA574-3962-4736-B25A-0827C46D3878}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarLtdBackOffice", "CarLtdBackOffice\CarLtdBackOffice.csproj", "{67BEA574-3962-4736-B25A-0827C46D3878}"
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CarLtdFrontOffice", "CarLtdFrontOffice\", "{7A40146C-1EFB-47DF-AF61-99BA97577E24}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -27,9 +27,9 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CarLtdFrontOffice", "CarLtd
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLtdClasses", "CarLtdClasses\CarLtdClasses.csproj", "{31DCD28F-2AA2-4D6C-AF0E-000795E2DF09}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLtd Testing", "CarLtd Testing\CarLtd Testing.csproj", "{80B7BFE4-E004-46A7-886A-12C9388FD003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLTDClasses", "CarLTDClasses\CarLTDClasses.csproj", "{2BEB404F-D2D9-4DD8-BE91-891C9FCECF0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,14 +45,14 @@ Global
 		{7A40146C-1EFB-47DF-AF61-99BA97577E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A40146C-1EFB-47DF-AF61-99BA97577E24}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{7A40146C-1EFB-47DF-AF61-99BA97577E24}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{31DCD28F-2AA2-4D6C-AF0E-000795E2DF09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31DCD28F-2AA2-4D6C-AF0E-000795E2DF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31DCD28F-2AA2-4D6C-AF0E-000795E2DF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{31DCD28F-2AA2-4D6C-AF0E-000795E2DF09}.Release|Any CPU.Build.0 = Release|Any CPU
 		{80B7BFE4-E004-46A7-886A-12C9388FD003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{80B7BFE4-E004-46A7-886A-12C9388FD003}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80B7BFE4-E004-46A7-886A-12C9388FD003}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80B7BFE4-E004-46A7-886A-12C9388FD003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BEB404F-D2D9-4DD8-BE91-891C9FCECF0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BEB404F-D2D9-4DD8-BE91-891C9FCECF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BEB404F-D2D9-4DD8-BE91-891C9FCECF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BEB404F-D2D9-4DD8-BE91-891C9FCECF0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
