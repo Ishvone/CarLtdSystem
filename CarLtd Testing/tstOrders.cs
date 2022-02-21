@@ -32,7 +32,7 @@ namespace CarLtd_Testing
             //create an instance of the class we want to create
             clsOrders Orders = new clsOrders();
             //create some test data to assign to the property
-            String TestData = "#9999";
+            String TestData = "SHIPPED";
             //assign data to the property
             Orders.Status = TestData;
             //test to see that the two values are the same
